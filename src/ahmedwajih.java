@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tesst;
 
 /**
  *
@@ -16,7 +15,7 @@ public class Tesst {
      */
     
     //pgcd
-    
+
     public static int pgcd(int a, int b) {
 while (b != 0) {
 int temp = b;
@@ -24,16 +23,12 @@ b = a % b;
 }
 return a;
 }
-    public static void main(String[] args) 
+    public static void pgcd
     
     {
         // TODO code application logic here
         
-        //puissance
-     /*   double base = 2 ;
-        double exp = 3 ;
-        double res = Math.pow(base,exp);
-        System.out.println("2*3 =" +res  );*/
+    
         
         //pgcd
         
@@ -44,6 +39,15 @@ System.out.println("Le PGCD de" + nombrel + " et" + nombre2 + " est : " + pgcdRe
         
         
         
+    }
+
+
+
+    public static void puissance {
+       double base = 2 ;
+        double exp = 3 ;
+        double res = Math.pow(base,exp);
+        System.out.println("2*3 =" +res  );
     }
     
 }
