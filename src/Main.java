@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int[] tableau = {1, 2, 3, 4, 5};
+
+        int somme = mohamedAzizAjmi.calculerSomme(tableau);
+        System.out.println("La somme des éléments du tableau est : " + somme);
+
+        double moyenne = mohamedAzizAjmi.calculerMoyenne(tableau);
+        System.out.println("La moyenne des éléments du tableau est : " + moyenne);
     }
 }
