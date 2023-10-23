@@ -7,5 +7,8 @@ public class Main {
 
         double moyenne = mohamedAzizAjmi.calculerMoyenne(tableau);
         System.out.println("La moyenne des éléments du tableau est : " + moyenne);
+
+        NouriMohamedAmine man=new NouriMohamedAmine();
+        System.out.println( man.isPremier(121));
     }
 }
