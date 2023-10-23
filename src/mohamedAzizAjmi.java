@@ -1,12 +1,12 @@
 public class mohamedAzizAjmi {
     public static int calculerSomme(int[] tableau) {
-        int somme = 0;
+        int s = 0;
 
         for (int i = 0; i < tableau.length; i++) {
-            somme += tableau[i];
+            s += tableau[i];
         }
 
-        return somme;
+        return s;
     }
 
 
